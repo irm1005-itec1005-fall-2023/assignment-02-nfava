@@ -34,7 +34,7 @@ nav ul li a {
   color: #fff;
 }
 main { 
-  max-width: 800px;
+  max-width: 900px;
   margin: 30px auto;
   padding: 30px;
   background-color: #fff;
@@ -53,5 +53,9 @@ main h3 {
 main p {
   margin-bottom: 20px;
 }
-
+main img {
+  max-width: 100%; 
+  height: auto; 
+  margin: 20px auto; 
+}
 
