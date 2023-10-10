@@ -20,6 +20,11 @@
   align-items: stretch;
 }
 
+.flex-container {
+  border: 1px solid #f1faee;
+  border-radius: 10px;
+}
+
 header {
   background-color: #fdfcfc;
   color: #030303;
@@ -49,8 +54,8 @@ main {
   max-width: 900px;
   margin: 30px auto;
   padding: 30px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  background-color: #faf9f9;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0);
 }
 
 main h2 {
