@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #fdfcfc;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -54,17 +54,26 @@ main p {
   margin-bottom: 20px;
 }
 main img {
+
   max-width: 100%; 
   height: auto; 
   margin: 20px auto; 
 }
+
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: left;
-  padding: 20px;
+  padding: 1rem;
+  background-color: #fdfdfe;
+  color: #060606;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 footer h3 {
   font-size: 24px;
+}
+
+footer img {
+  max-width: 600px;
+  height: auto;
+
 }
