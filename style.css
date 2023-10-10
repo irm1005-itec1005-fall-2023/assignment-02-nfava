@@ -3,9 +3,21 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1faee;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: stretch;
 }
 
 header {
@@ -16,7 +28,7 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 nav ul {
@@ -31,7 +43,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #0b0b0b;
 }
 main { 
   max-width: 900px;
@@ -62,19 +74,15 @@ main img {
 
 footer {
   padding: 1rem;
-  background-color: #fdfdfe;
-  color: #060606;
+  background-color: #fafafb;
+  color: #0f0f0f;
   font-size: 0.9rem;
   text-align: left;
+  
 }
-
-footer h3 {
-  font-size: 24px;
-}
-
 footer img {
-  max-width: 500px;
-  height: auto;
-  height: auto; 
+
+  max-width: 100%; 
   margin: 20px auto; 
 }
+
