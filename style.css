@@ -30,6 +30,9 @@ header {
   color: #030303;
   text-align: center;
   padding: 20px;
+  
+  min-width: 100%;
+  min-height: 100%;
 }
 
 header h1 {
@@ -85,6 +88,9 @@ footer {
   font-size: 0.9rem;
   text-align: center;
   
+
+  min-width: 100%;
+  min-height: 100%;
 }
 footer img {
 
