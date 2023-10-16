@@ -3,17 +3,98 @@
  * CSS FILE
  */
 
-body {
+ body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+  background-color: #f1f3f0;
+  color: #0d0c0c;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: stretch;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+.flex-container {
+  border: 1px solid #f1faee;
+  border-radius: 10px;
 }
+
+header {
+  background-color: #fdfcfc;
+  color: #030303;
+  text-align: center;
+  padding: 20px;
+  
+  min-width: 100%;
+  min-height: 100%;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0b0b0b;
+}
+main { 
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #faf9f9;
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0);
+}
+
+main h2 {
+  font-size: 24px;
+}
+
+main h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+main img {
+
+  max-width: 100%; 
+  height: auto; 
+  margin: 20px auto; 
+}
+
+
+footer {
+  padding: 1rem;
+  background-color: #fefefe;
+  color: #0f0f0f;
+  font-size: 0.9rem;
+  text-align: center;
+  
+
+  min-width: 100%;
+  min-height: 100%;
+}
+footer img {
+
+  max-width: 100%; 
+  margin: 20px auto; 
+}
+
